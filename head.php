@@ -16,13 +16,16 @@
 			<div class="caixa">
 				<img class="img__cabelo_barba" src="images\cabelo+barba.jpg">
 				<h1 class="marca">[Barbearia Marco Antônio]</h1>
+				
 				<nav>
-					<ul>
-						<li><a href="index.php">Home</a></li>
-						<li><a href="produtos.php">Produtos</a></li>
-						<!-- <li><a href="contato.php">Contato</a></li> -->
-					</ul>
-				</nav>
-			</div>
+						<ul class="menu">
+							<li><a href="index.php">Home</a></li>
+							<li><a href="produtos.php">Produtos</a></li>
+							<!-- <li><a href="contato.php">Contato</a></li> -->
+						</ul>
+					</nav>
+			</div><!-- caixa -->
+			<!-- Botão Zap -->
+			<?php require 'zap.php' ?>
 		</header>
-		<?php require 'zap.php'?>
+		
